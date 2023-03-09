@@ -7,7 +7,7 @@ const main = document.querySelector(".main-section");
 const audioClick = new Audio("/audio/Mountain Audio - Menu Click.mp3");
 const audioWin = new Audio("/audio/huge win.wav");
 
-let number = Math.round(1 + Math.random() * 20);
+let number = Math.round(1 + Math.random() * 19);
 let score = document.querySelector(".score");
 let highScore = document.querySelector(".highscore");
 
@@ -42,7 +42,7 @@ check.addEventListener("click", () => {
 });
 
 restart.addEventListener("click", () => {
-  number = Math.round(1 + Math.random() * 20);
+  number = Math.round(1 + Math.random() * 19);
   mindLabel.value = "";
   main.classList.remove("new-1");
   main.classList.remove("new-2");
