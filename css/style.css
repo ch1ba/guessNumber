@@ -54,6 +54,7 @@ body {
   font-size: 45px;
   border: 7px solid green;
   transition: transform 2s;
+  border-radius: 10px;
 }
 
 .secret:hover {
