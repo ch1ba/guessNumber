@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(63, 61, 61);
+}
+
+.new-1 {
+  background-color: rgb(31, 179, 31);
+}
+
+.new-2 {
+  background-color: rgb(160, 56, 56);
+}
+.main-section {
+  /* background-color: rgb(63, 61, 61); */
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 130px;
+}
+.restart {
+  margin: 0;
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  transition: transform 0.4s;
+}
+.info {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 330px;
+}
+
+.secret {
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  border: 7px solid green;
+}
+
+.secret-2 {
+  margin: 0;
+  font-size: 64px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 170px;
+}
+
+.footer__left {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mind {
+  width: 230px;
+  height: 100px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.mind-text {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 300px;
+}
+
+.last {
+  height: 100px;
+  width: 33vw;
+}
+
+.accept {
+  margin: 0;
+  height: 50px;
+  width: 180px;
+  border-radius: 30px;
+  margin-left: 290px;
+  transition: transform 0.4s;
+}
+
+.accept:hover {
+  transform: translateY(-5px);
+}
+
+.accept:active {
+  transform: scale(0.95);
+}
+
+.restart:hover {
+  transform: translateY(-5px);
+}
+
+.restart:active {
+  transform: scale(0.95);
+}
+
+.info-t {
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(-2px);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

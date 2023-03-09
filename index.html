@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Угадай число</title>
+  </head>
+  <body>
+    <div class="main-section">
+      <div class="header">
+        <button class="restart">Рестарт</button>
+        <p class="info">Число между (1-20)</p>
+      </div>
+
+      <div class="main">
+        <p class="secret-2">Угадай число</p>
+        <div class="secret">?</div>
+      </div>
+
+      <div class="footer">
+        <div class="footer__left">
+          <p class="mind-text">Начните угадывать...</p>
+          <input class="mind" type="number" placeholder="..." />
+        </div>
+        <div class="footer__right">
+          <p class="info-t number">
+            💯 Кол-во попыток: <span class="score"> 20 </span>
+          </p>
+          <p class="info-t record">
+            🥇 Рекорд: <span class="highscore"> 20 </span>
+          </p>
+        </div>
+      </div>
+      <div class="last">
+        <button class="accept">Проверить число</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
